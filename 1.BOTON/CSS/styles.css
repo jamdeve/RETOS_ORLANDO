@@ -1,5 +1,47 @@
 
+*{
+    box-sizing: border-box;
+}
+
 body
 {
     margin: 0;
+    background-color: #070a2b;
 }
+
+.Container{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.Container__Button{
+    font-family: Lexend;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    width: 528px;
+    height: 48px;
+    color: white;
+    background-color: #0EAAF9;
+    border: none;
+    border-radius: 8px;
+    padding: 14px, 0px, 14px, 0px;
+}
+
+.Container__Button:hover
+{
+    background-color: #0081CE;
+}
+
+.Container__Button:p{
+    background-color: #0EAAF9;
+}
+
+.Container__Button:focus{
+    background-color: #0081CE;
+    color: white;
+    outline: 2px solid #D3D3D3;
+}
+
+
